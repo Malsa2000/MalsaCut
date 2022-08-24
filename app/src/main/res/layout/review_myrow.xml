@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:id="@+id/relative"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    >
+<TextView
+    android:id="@+id/titel"
+    android:layout_width="match_parent"
+    android:text="Good product, good cameras !"
+    android:textSize="15dp"
+    android:textColor="#000"
+    android:layout_marginLeft="10dp"
+    android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="100dp"
+        android:text="15 mins ago"
+        android:textSize="10dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:text="No – one gets an iron – clad guarantee of success. Certainly, factors like opportunity, luck and timing are important. But the backbone of success is usually found in old – fashioned, basic concepts like hard work, determination, good planning and perseverance."
+        android:textSize="10dp"
+        android:gravity="start"
+        android:padding="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_height="80dp"/>
+
+
+    <TextView
+        android:layout_width="110dp"
+        android:background="@drawable/groub25"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/name_person"
+        android:layout_width="200dp"
+        android:text="By Sunny Vo"
+        android:textSize="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="20dp"/>
+
+
+
+
+</RelativeLayout>

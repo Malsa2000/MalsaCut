@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="240dp">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:text="Popular keywords"
+       android:textSize="20dp"
+       android:textStyle="bold"
+       android:textColor="#000"
+       android:gravity="start"
+       android:layout_gravity="start"
+       android:paddingTop="10dp"
+       android:paddingLeft="10dp"
+       android:layout_height="50dp"/>
+   <ImageView
+       android:id="@+id/imgproduct1"
+       android:background="#D3D3D3"
+       android:src="@drawable/drink"
+       android:paddingRight="90dp"
+       android:layout_marginTop="70dp"
+       android:layout_width="180dp"
+       android:layout_height="80dp"/>
+   <TextView
+       android:layout_width="90dp"
+       android:text="Heniken"
+       android:textSize="17dp"
+       android:textStyle="bold"
+       android:textColor="#000"
+       android:paddingLeft="2dp"
+       android:layout_marginTop="80dp"
+       android:layout_marginLeft="90dp"
+       android:layout_height="30dp"/>
+
+   <TextView
+       android:layout_width="90dp"
+       android:text="155 Products"
+       android:textSize="13dp"
+       android:layout_marginTop="105dp"
+       android:layout_marginLeft="90dp"
+       android:layout_height="30dp"/>
+
+
+
+   <ImageView
+       android:id="@+id/imgproduct2"
+       android:background="#D3D3D3"
+       android:src="@drawable/flay1"
+       android:layout_marginTop="155dp"
+       android:paddingRight="90dp"
+       android:layout_width="180dp"
+       android:layout_height="80dp"/>
+
+   <TextView
+       android:layout_width="90dp"
+       android:text="Flycam"
+       android:textSize="17dp"
+       android:textStyle="bold"
+       android:textColor="#000"
+       android:paddingLeft="2dp"
+       android:layout_marginTop="160dp"
+       android:layout_marginLeft="90dp"
+       android:layout_height="30dp"/>
+
+   <TextView
+       android:layout_width="90dp"
+       android:text="1,000 Products"
+       android:textSize="13dp"
+       android:layout_marginTop="185dp"
+       android:layout_marginLeft="90dp"
+       android:layout_height="30dp"/>
+
+
+   <ImageView
+       android:id="@+id/imgproduct3"
+       android:background="#D3D3D3"
+       android:src="@drawable/co7"
+       android:layout_marginTop="155dp"
+       android:paddingRight="90dp"
+       android:layout_marginLeft="183dp"
+       android:layout_width="180dp"
+       android:layout_height="80dp"/>
+
+   <TextView
+       android:layout_width="90dp"
+       android:text="Macbook"
+       android:textSize="17dp"
+       android:textStyle="bold"
+       android:textColor="#000"
+       android:paddingLeft="2dp"
+       android:layout_marginTop="160dp"
+       android:layout_marginLeft="270dp"
+       android:layout_height="30dp"/>
+
+   <TextView
+       android:layout_width="90dp"
+       android:text="1,000 Products"
+       android:textSize="13dp"
+       android:paddingLeft="0dp"
+       android:layout_marginTop="185dp"
+       android:layout_marginLeft="270dp"
+       android:layout_height="30dp"/>
+
+
+
+   <ImageView
+       android:id="@+id/imgproduct4"
+       android:background="#D3D3D3"
+       android:src="@drawable/ph7"
+       android:layout_marginTop="70dp"
+       android:layout_marginLeft="183dp"
+       android:paddingRight="90dp"
+       android:layout_width="180dp"
+       android:layout_height="80dp"/>
+
+   <TextView
+       android:layout_width="90dp"
+       android:text="iPhone"
+       android:textSize="17dp"
+       android:textStyle="bold"
+       android:textColor="#000"
+       android:paddingLeft="2dp"
+       android:layout_marginTop="80dp"
+       android:layout_marginLeft="270dp"
+       android:layout_height="30dp"/>
+
+   <TextView
+       android:layout_width="90dp"
+       android:text="2,000 Products"
+       android:textSize="13dp"
+       android:layout_marginTop="105dp"
+       android:layout_marginLeft="270dp"
+       android:layout_height="30dp"/>
+
+</RelativeLayout>

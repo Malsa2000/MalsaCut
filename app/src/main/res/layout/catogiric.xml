@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_margin="10dp"
+    android:padding="0dp"
+    android:background="@drawable/catgroic"
+    android:layout_height="450dp">
+
+    <TextView
+        android:id="@+id/showmore"
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/books"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp"/>
+
+
+
+    <TextView
+        android:id="@+id/foods"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp"/>
+
+
+
+    <TextView
+        android:id="@+id/computer"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp"/>
+
+
+    <TextView
+        android:id="@+id/electroin"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="240dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/cellphone"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp"/>
+
+    <TextView
+        android:id="@+id/office"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="240dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp"/>
+
+    <TextView
+        android:id="@+id/fation"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp"/>
+
+    <TextView
+        android:id="@+id/shose"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp"/>
+
+
+    <TextView
+        android:id="@+id/collecton"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="240dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp"/>
+</RelativeLayout>

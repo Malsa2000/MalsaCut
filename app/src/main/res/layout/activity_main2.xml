@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/first_screen_new"
+    tools:context=".Main2Activity"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:background="@drawable/butlodin"
+        android:layout_marginTop="550dp"
+        android:layout_height="65dp"/>
+
+
+    <Button
+        android:id="@+id/singup"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:text="SING UP"
+        android:background="@drawable/singup"
+        android:layout_marginTop="-10dp"
+        android:layout_height="65dp"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MalsaCut</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="close">String</string>
+    <string name="open">String</string>
+
+    <string name="chose">PLEASE CHOOSE YOUR LANGUAGE</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

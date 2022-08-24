@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="230dp">
+
+    <LinearLayout
+        android:id="@+id/liner"
+        android:layout_width="200dp"
+        android:orientation="vertical"
+        android:layout_margin="0dp"
+        android:layout_height="230dp">
+
+        <ImageView
+            android:id="@+id/imge"
+            android:layout_width="150dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:paddingBottom="70dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shose1" />
+
+        <TextView
+        android:id="@+id/name11"
+        android:layout_width="150dp"
+        android:text="Layla and Wife"
+        android:layout_marginTop="-70dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="start"
+        android:layout_height="25dp"></TextView>
+        <TextView
+            android:id="@+id/price11"
+            android:layout_width="70dp"
+            android:text="Stories"
+            android:textColor="#3BDBF8"
+            android:layout_gravity="start"
+            android:layout_marginLeft="30dp"
+            android:textSize="13dp"
+            android:layout_marginTop="-7dp"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:id="@+id/ocasyo11"
+            android:layout_width="70dp"
+            android:text="Stories"
+            android:layout_marginLeft="30dp"
+            android:textSize="11dp"
+            android:layout_marginTop="-5dp"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/groub25"
+            android:textSize="7dp"
+            android:layout_marginTop="-5dp"
+            android:layout_height="15dp"/>
+    </LinearLayout>
+</LinearLayout>

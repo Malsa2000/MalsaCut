@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativelayout22"
+    tools:context=".location">
+
+  <include
+      android:id="@+id/massage_sucsses"
+      android:visibility="gone"
+      layout="@layout/sucsses_dailoge"/>
+
+    <include
+        android:id="@+id/massage_delet"
+        android:visibility="gone"
+        layout="@layout/reeor_dailoge"/>
+
+    <ImageView
+        android:id="@+id/imgelocation"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/iconlocations"
+        android:layout_marginTop="70dp"
+        android:layout_height="230dp"/>
+
+    <TextView
+        android:id="@+id/titellocatin"
+        android:layout_marginTop="330dp"
+        android:layout_width="300dp"
+android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:gravity="center"
+
+        android:textColor="#000"
+        android:text="TURN ON YOUR LOCATION"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/textlocation"
+        android:layout_width="300dp"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:text="To continues, let your device turn on location, which uses Google’s location service"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/location_button"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+       android:background="@drawable/but_location"
+        android:layout_marginTop="470dp"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/chancel_butoon"
+        android:layout_width="300dp"
+        android:layout_marginTop="530dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/chancel"
+        android:layout_height="70dp"/>
+
+</RelativeLayout>

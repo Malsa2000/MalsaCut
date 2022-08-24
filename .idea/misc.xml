@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_button_act.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_firsh_.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_firsh_singin_.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_home.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_location.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_lovelist.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_main.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_main2.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_main3.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_my_order.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_recycell_view.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_review_recycellvirw_down.xml" value="0.1765625" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_searsh_activity.xml" value="0.1765625" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_select__langouge.xml" value="0.1765625" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/activity_tabed_view.xml" value="0.1" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/catogiric.xml" value="0.1" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/nave_fragment.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/product_det.xml" value="0.1921875" />
+        <entry key="..\:/MalsaCut/app/src/main/res/layout/tebed_view.xml" value="0.18958333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/wel11"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/wel11"
+        android:layout_height="match_parent"/>
+
+
+
+    <Button
+        android:id="@+id/home"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/item_help"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/searsh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/item_searsh"
+        android:layout_width="350dp"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/help"
+        android:layout_marginLeft="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/item_h"
+        android:layout_width="350dp"
+        android:layout_height="70dp"/>
+</RelativeLayout>

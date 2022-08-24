@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:id="@+id/relative"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    tools:context=".Login_activity">
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="100dp"
+        android:textStyle="bold"
+        android:text="No."
+        android:textColor="#676868"
+        android:textSize="15dp"
+        android:gravity="start"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="25dp"/>
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="100dp"
+        android:textStyle="bold"
+        android:text="#14500"
+        android:textColor="#7AEDFC"
+        android:textSize="15dp"
+        android:gravity="start"
+        android:padding="5dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="25dp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="100dp"
+        android:text="Booked on 1.oct.2020"
+        android:textColor="#737474"
+        android:textSize="10dp"
+        android:gravity="start"
+        android:padding="5dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="25dp"/>
+
+
+    <ImageView
+        android:id="@+id/imge1"
+        android:layout_width="120dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/shose1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="120dp"/>
+
+<TextView
+    android:id="@+id/item_titel"
+    android:layout_width="200dp"
+    android:text="Sport shose"
+    android:textSize="20dp"
+    android:textColor="#000"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="70dp"
+    android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="100dp"
+        android:textStyle="bold"
+        android:text="14500$"
+        android:textColor="#7AEDFC"
+        android:textSize="15dp"
+        android:gravity="start"
+        android:padding="5dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="25dp"/>
+
+
+   <ImageView
+
+       android:layout_width="350dp"
+       android:src="@drawable/mange"
+       android:scaleType="centerInside"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="160dp"
+       android:layout_height="60dp"></ImageView>
+
+
+</RelativeLayout>

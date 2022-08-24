@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:id="@+id/relative"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    tools:context=".Login_activity">
+
+
+    <ImageView
+        android:id="@+id/imge1"
+        android:layout_width="160dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/shose1"
+        android:layout_height="160dp"/>
+
+<TextView
+    android:id="@+id/item_titel"
+    android:layout_width="200dp"
+    android:text="Sport shose"
+    android:textSize="15dp"
+    android:textColor="#000"
+    android:layout_marginLeft="170dp"
+    android:layout_marginTop="30dp"
+    android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="100dp"
+        android:textStyle="bold"
+        android:text="14500$"
+        android:textColor="#7AEDFC"
+        android:textSize="10dp"
+        android:gravity="start"
+        android:padding="5dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="25dp"/>
+
+
+
+    <TextView
+        android:id="@+id/ocasyo"
+        android:layout_width="200dp"
+        android:text="9999 (.50%)"
+        android:textSize="7dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="70dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="130dp"
+        android:background="@drawable/groub25"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="30dp"/>
+
+
+</RelativeLayout>

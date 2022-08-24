@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Reviews Comments"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/point"
+        android:layout_marginTop="70dp"
+        android:layout_height="80dp"/>
+
+    <ImageView
+        android:layout_width="120dp"
+         android:src="@drawable/rating"
+        android:scaleY="1.4"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="180dp"
+        android:layout_height="120dp"></ImageView>
+
+    <Button
+        android:id="@+id/wrireReview"
+        android:layout_width="match_parent"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/writr_review"
+        android:layout_height="70dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycellView_Review_coment"
+        android:layout_width="match_parent"
+        android:layout_marginTop="250dp"
+        tools:listitem="@layout/review_myrow"
+        android:layout_height="380dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="630dp"
+            android:text="SEE ALL REVIEWS"
+            android:background="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="250dp">
+
+        <include
+        android:id="@+id/recycellView_sho"
+        layout="@layout/activity_review_recycellvirw_down"/>
+</LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@drawable/blok_head"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+android:text="Are you tired of slow, inefficient charging with too many wires that get tangled with each other?
+
+If you are, we have just the solution for you!
+
+Combining super-fast charging and wireless technology, Ivolks is proud to present…
+
+"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:gravity="start"
+        android:textColor="#504E4E"
+        android:layout_height="170dp"/>
+
+    <TextView
+        android:id="@+id/totalprice"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="-70dp"
+        android:background="@drawable/symbol11"
+        android:layout_height="60dp"/>
+
+    <include
+        android:id="@+id/qr"
+        layout="@layout/qandr"/>
+
+</LinearLayout>

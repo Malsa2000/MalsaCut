@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/relative_layout"
+    android:layout_margin="5dp"
+    android:background="#fff">
+
+
+    <ImageView
+        android:id="@+id/pepole"
+        android:layout_width="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/person1"
+        android:layout_height="100dp"/>
+
+<TextView
+    android:id="@+id/item_titel"
+    android:layout_width="120dp"
+    android:text="Sport shose"
+    android:textSize="20dp"
+    android:textColor="#000"
+    android:layout_marginLeft="110dp"
+    android:layout_marginTop="15dp"
+    android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="200dp"
+        android:textStyle="bold"
+        android:text="14500$"
+        android:textColor="#000"
+        android:textSize="10dp"
+        android:gravity="start"
+        android:padding="5dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="70dp"/>
+
+    <TextView
+        android:layout_width="130dp"
+        android:text="1 houers"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="30dp"/>
+
+
+</RelativeLayout>

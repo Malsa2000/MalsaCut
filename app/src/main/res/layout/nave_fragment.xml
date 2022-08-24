@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#D3D3D3"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/viewpader_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3D3D3"
+        android:orientation="vertical">
+
+
+<!--      <com.smarteist.autoimageslider.SliderView-->
+<!--          android:id="@+id/imgeSlider"-->
+<!--          android:layout_width="match_parent"-->
+<!--          android:layout_height="300dp"/>-->
+
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager_nav_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="-120dp"
+            android:background="@drawable/img" >
+
+
+
+        </androidx.viewpager.widget.ViewPager>
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/sliderdots"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="-50dp"-->
+<!--            android:layout_marginBottom="15dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingLeft="30dp"-->
+<!--            android:paddingTop="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img1_home"-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="10dp"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:background="@drawable/shap"></ImageView>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img2_home"-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="10dp"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:background="@drawable/shap_gray"></ImageView>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img3_home"-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="10dp"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:background="@drawable/shap_gray"></ImageView>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img4_home"-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="13dp"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:background="@drawable/shap_gray"></ImageView>-->
+
+<!--        </LinearLayout>-->
+
+
+        <include
+            android:id="@+id/mediel"
+            layout="@layout/catogiric" />
+
+        <include
+            android:id="@+id/home3"
+            layout="@layout/home3" />
+
+        <include
+            android:id="@+id/home4"
+            layout="@layout/home4" />
+
+
+    </LinearLayout>
+</ScrollView>

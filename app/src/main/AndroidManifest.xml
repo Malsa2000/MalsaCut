@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.malsacut">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"></activity>
+        <activity android:name=".writeComment" />
+        <activity android:name=".Total" />
+        <activity android:name=".review_recycellvirw_down" />
+        <activity android:name=".Setting" />
+        <activity android:name=".location" />
+        <activity android:name=".Select_Langouge" />
+        <activity android:name=".lovelist" />
+        <activity android:name=".Selling_thinghs" />
+        <activity android:name=".Searsh_activity" />
+        <activity android:name=".button_act" />
+        <activity android:name=".RecycellView" />
+        <activity android:name=".MyOrder"></activity>
+        <activity android:name=".Home" />
+        <activity android:name=".tabedView" />
+        <activity android:name=".SingIn_Activity" />
+        <activity android:name=".Login_activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

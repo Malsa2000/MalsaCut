@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Selling_thinghs">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id = "@+id/toolbar_sellect"
+        android:layout_width = "match_parent"
+        android:layout_height = "60dp"
+        android:background = "#fff"
+        app:layout_scrollFlags = "scroll|enterAlways"
+        app:popupTheme = "@style/ThemeOverlay.AppCompat.Light" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sellis_re"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        tools:listitem="@layout/my_row_order"
+        android:layout_height="match_parent"/>
+</LinearLayout>

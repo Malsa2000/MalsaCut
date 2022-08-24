@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lineSearsh"
+    android:orientation="vertical"
+    tools:context=".Searsh_activity">
+
+    <SearchView
+        android:id="@+id/simpleSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+    <ListView
+        android:id="@+id/listsearsh"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+
+    <ImageView
+        android:id="@+id/searshimg"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/no_result"
+        android:layout_width="150dp"
+        android:layout_height="200dp"/>
+</LinearLayout>

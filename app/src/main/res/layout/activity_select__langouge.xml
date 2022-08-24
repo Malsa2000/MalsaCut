@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Select_Langouge">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/ico_langouge"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_height="180dp"/>
+    <TextView
+        android:id="@+id/textlangugers"
+        android:layout_width="wrap_content"
+        android:text="PLEASE CHOOSE YOUR LANGUAGE"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/arabic"
+        android:layout_width="300dp"
+        android:text="Arabic"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="190dp"
+        android:layout_height="60dp"/>
+    <CheckBox
+        android:id="@+id/english"
+        android:layout_width="300dp"
+        android:text="English"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="190dp"
+        android:layout_height="60dp"/>
+    <CheckBox
+        android:id="@+id/chines"
+        android:layout_width="300dp"
+        android:text="Chines"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="190dp"
+        android:layout_height="60dp"/>
+    <CheckBox
+        android:id="@+id/japan"
+        android:layout_width="300dp"
+        android:text="Japanese"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="180dp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_green"
+        android:layout_height="70dp"/>
+</LinearLayout>

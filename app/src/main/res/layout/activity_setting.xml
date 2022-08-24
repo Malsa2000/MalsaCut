@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Setting">
+<Button
+    android:id="@+id/select_Activity"
+    android:layout_width="match_parent"
+    android:layout_marginTop="50dp"
+    android:background="@drawable/rectangel"
+    android:text="SELECT LANGUGES"
+    android:textColor="#fff"
+    android:textSize="17dp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:background="@drawable/rectangel"
+        android:text="TUREN LOCATION"
+        android:textColor="#fff"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="80dp"/>
+</LinearLayout>

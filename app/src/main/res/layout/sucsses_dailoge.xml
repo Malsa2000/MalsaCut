@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="150dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/suc"
+        android:layout_gravity="center"
+        android:layout_height="150dp"/>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:orientation="vertical"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="400dp">
+
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center"
+            android:textSize="020dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="Message title ?"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="Are you tired of slow, inefficient charging with too many wires that get tangled with each other?"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="17dp"
+            android:background="#fff"
+            android:layout_marginLeft="10dp"
+            android:text="CANCEL"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="center"
+            android:layout_marginTop="-50dp"
+            android:layout_marginLeft="200dp"
+            android:textColor="#85DAFC"
+            android:textSize="17dp"
+            android:background="#fff"
+            android:text="AGREE"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
